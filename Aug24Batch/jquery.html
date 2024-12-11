@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title>
+Event Based Architecture with JQuery
+</title>
+</head>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+</script>
+
+<script>
+
+$(function(){
+
+$("#txtId").keyup(
+		function(){
+		   $("#msgId").html($("#txtId").val())
+		}
+)
+
+})
+
+
+
+
+  
+</script>
+
+
+<body>
+
+Name: <input type="text" id="txtId">
+
+<br><br>
+
+Hello....  <span id="msgId"></span>
+
+</body>
+
+
+</html>
