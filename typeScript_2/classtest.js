@@ -40,3 +40,4 @@ var class1 = /** @class */ (function () {
 }());
 var obj = new class1(); //Creating Object to the class
 console.log(obj.getTech1(), obj.getTech2(), obj.getTech3()); //Invoking Member Functions through Objects
+//Output ==> Angular Spring Boot MY SQL
